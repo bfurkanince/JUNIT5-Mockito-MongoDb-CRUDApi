@@ -2,4 +2,4 @@ How to create new database on MongoDb ?
 	asnwer : " use testdb " write on terminal
 
 How to create new collection on my testDb ? 
-	answer : " db.createCollection("mycollection" " write on terminal
+	answer : " db.createCollection("mycollection") " write on terminal
