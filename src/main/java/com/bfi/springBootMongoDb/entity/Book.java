@@ -1,9 +1,7 @@
 package com.bfi.springBootMongoDb.entity;
 
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -11,6 +9,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Setter
 @ToString
 @Document(collection = "Book")
+@AllArgsConstructor
+@NoArgsConstructor
 public class Book {
     @Id
     private String id;
